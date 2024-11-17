@@ -1,5 +1,3 @@
-
-
 let squares = document.querySelectorAll(".square");
 let winnerText = document.querySelector(".winner-text")
 let restartButton = document.querySelector(".restart-button")
@@ -51,9 +49,5 @@ restartButton.addEventListener('click', () => {
 
     squares.forEach(sqr => sqr.innerHTML = "");
     winnerText.textContent = ""
-
-    console.log(board);
-    console.log(isWinner);
-    console.log(isSwitching);
 })
 
