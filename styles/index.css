@@ -79,7 +79,7 @@ body{
 .x::after {
     transform: rotate(45deg);
 }
-.circle {
+.o {
     width: 100px;
     height: 100px;
     border-radius: 120px;
